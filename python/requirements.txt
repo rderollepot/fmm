@@ -1,0 +1,6 @@
+jupyter
+numpy
+pandas
+geopandas
+shapely
+osmnx
