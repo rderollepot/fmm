@@ -62,6 +62,13 @@ Source code of these screenshots are available at https://github.com/cyang-kth/f
 - :tada: Check [https://github.com/cyang-kth/fmm-examples](https://github.com/cyang-kth/fmm-examples)
 for interactive map matching in notebook.
 
+NB: Swig was missing from the library list, and we need to force the link to `libomp`
+
+```
+brew install boost gdal libomp expat bzip2 swig
+brew link --force libomp
+```
+
 ### Code docs for developer
 
 Check [https://cyang-kth.github.io/fmm/](https://cyang-kth.github.io/fmm/)
