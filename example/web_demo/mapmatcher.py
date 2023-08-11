@@ -1,5 +1,7 @@
 import os
 import json
+import sys
+sys.path.insert(1, r'../../build/python')
 from fmm import Network, NetworkGraph
 from fmm import FastMapMatch, FastMapMatchConfig, UBODT
 from fmm import STMATCH, STMATCHConfig

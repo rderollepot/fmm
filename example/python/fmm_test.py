@@ -1,4 +1,6 @@
 from __future__ import print_function
+import sys
+sys.path.insert(1, r'../../build/python')
 from fmm import Network,NetworkGraph,STMATCH,STMATCHConfig
 network = Network("../data/edges.shp")
 graph = NetworkGraph(network)
